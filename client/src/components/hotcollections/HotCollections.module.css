@@ -1,0 +1,86 @@
+.hotcollections{
+    margin: 50px 0;
+}
+
+.hotItem{
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    padding-bottom: 10px;
+    border: 1px solid #d2d2d2;
+    box-shadow: 3px 3px 3px rgb(191, 191, 191);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+
+}
+
+
+.topHotItem{
+    width: 100%;
+    height: 60%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.midHotItem{
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+}
+
+.avatar{
+    position: relative;
+}
+
+.stick{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    color: #8364e2;
+    right: 8px;
+    bottom: 12px;
+}
+
+.avatarImg{
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.bottomHotItem{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.dayne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 250px;
+    width: 310px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    justify-content: center;
+}
+
+.imgNFT{
+    width: 80%;
+    object-fit: cover;
+}
